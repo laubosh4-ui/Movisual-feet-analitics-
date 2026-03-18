@@ -1,0 +1,21 @@
+movisual_edge/
+│
+├── lib/
+│   ├── main.dart
+│   ├── config.dart
+│   │
+│   ├── screens/
+│   │   └── home_screen.dart
+│   │
+│   └── services/
+│       ├── api_service.dart
+│       ├── detector_service.dart
+│       └── tracker_service.dart
+│
+├── assets/
+│   ├── ssd_mobilenet_v2.tflite
+│   ├── age_model.tflite
+│   └── gender_model.tflite
+│
+├── pubspec.yaml
+└── README.md
