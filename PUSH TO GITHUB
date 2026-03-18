@@ -1,0 +1,7 @@
+git init
+git add .
+git commit -m "Movisual Edge Initial Build"
+
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/movisual_edge.git
+git push -u origin main
