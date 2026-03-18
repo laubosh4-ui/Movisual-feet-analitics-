@@ -1,2 +1,14 @@
-# Movisual-feet-analitics-
-This app will send AI detection people's count age and gender plus feel time to base44:app dash board to do data analitics using WiFi camera 
+
+# Movisual Edge
+
+AI-powered people counting, dwell time tracking, and demographic analytics.
+
+## Features
+- Real-time people counting
+- Dwell time tracking
+- Age & gender detection
+- API integration (Base44)
+
+## Run
+flutter pub get
+flutter run
