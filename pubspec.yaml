@@ -1,0 +1,23 @@
+name: movisual_edge
+description: AI People Counting + Dwell Time + Demographics
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite_flutter: ^0.10.4
+  camera: ^0.10.5
+  http: ^1.2.0
+  uuid: ^4.3.3
+  image: ^4.1.7
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/ssd_mobilenet_v2.tflite
+    - assets/age_model.tflite
+    - assets/gender_model.tflite
